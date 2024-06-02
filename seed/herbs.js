@@ -5,11 +5,69 @@ db.on('error', console.error.bind(console, 'MongoDB connection error:'))
 
 const main = async () => {
     const herbs = [
-
-
-    ]
-    await Herb.insertMany(herbs)
-    console.log('Created herbs')
+        {
+            commonName: 'Wild columbine',
+            scientificName: 'Aquilegia canadensis',
+            family: 'Ranunculaceae - Buttercup Family',
+            color: ['Red', 'Yellow'],
+            season: ['Late spring', 'Early summer'],
+            habitat: 'Dry woods, rocky cliffs, ledges',
+            fragrant: false,
+            leaves: 'Alternate, compound',
+            petals: '5',
+            height: '1/2 - 3 ft',
+            description: 'Large (1 - 2" wide) showy, nodding flowers. Each petal has a long, narrow spur at the back. The leaflets grow in threes and are usually deeply lobed. (2)',
+            images: [{type: String, required: true}],
+            imageSources: [{type: String, required: true}]
+         },
+         {
+            commonName: 'Wild geranium',
+            scientificName: 'Geranium maculatum',
+            family: 'Geraniaceae - Geranium Family',
+            color: ['Pink', 'Purple'],
+            season: ['Spring', 'Early summer'],
+            habitat: 'Woods, shady roadsides, thickets, meadows',
+            fragrant: false,
+            leaves: 'Opposite, deeply lobed',
+            petals: '5',
+            height: '1 - 2 ft',
+            description: 'Flowers 1 - 1 1/2" wide. Leaves deeply and irregularly cleft into 3-5 lobes, the lower leaves long-stalked. (2)',
+            images: [{type: String, required: true}],
+            imageSources: [{type: String, required: true}] 
+         },
+         {
+            commonName: 'Yellow trout lily',
+            scientificName: 'Erythronium americanum',
+            family: 'Liliaceae - Lily Family',
+            color: ['Yellow'],
+            season: ['Early spring'],
+            habitat: 'Rich woods, bottomlands, meadows',
+            fragrant: false,
+            leaves: 'Basal, simple',
+            petals: '6',
+            height: '4 - 10 in',
+            description: 'Flowers solitary, 1/2 - 2 1/2" wide, petals recurved. Leaves mottled, elliptic or narrowly oval. (1)',
+            images: [{type: String, required: true}],
+            imageSources: [{type: String, required: true}] 
+         },
+         {
+            commonName: 'Pink lady slipper',
+            scientificName: 'Cypripedium acaule',
+            family: 'Orchidaceae - Orchid Family',
+            color: ['Pink'],
+            season: ['Spring'],
+            habitat: 'Acid swamps, bogs, dry woods, dunes',
+            fragrant: false,
+            leaves: 'Basal, simple',
+            petals: 'Irregular',
+            height: '6 - 16"',
+            description: 'Flower solitary, the lip 1 - 2" long, hollow pouch-shaped and cleft in the center. (2)',
+            images: [{type: String, required: true}],
+            imageSources: [{type: String, required: true}] 
+         },
+   ]
+   await Herb.insertMany(herbs)
+   console.log('Created herbs')
 }
 
 const run = async () => {
