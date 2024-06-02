@@ -31,12 +31,19 @@ Sheep Laurel
 
 Trees
 Tulip tree
+https://www.wildflower.org/plants/result.php?id_plant=LITU
 
 Northern Catalpa
+https://en.wikipedia.org/wiki/Catalpa_speciosa
 
 Black Locust
+https://www.wildflower.org/gallery/species.php?id_plant=ROPS
 
 American Basswood
+https://www.wildflower.org/gallery/species.php?id_plant=TIAM
+
+Flowering dogwood
+https://www.wildflower.org/gallery/species.php?id_plant=cofl2
 
 
 
@@ -58,6 +65,6 @@ Sources
 
 4. Peterson Field Guides: Trees and Shrubs. George A. Petrides. Houghton Mifflin, New York, NY. 1972
 
-5. Michigan Trees
+5. Michigan Trees: A Guide to the Trees of the Great Lakes Region. Burton V. Barnes and Warren H. Wagner, Jr. University of Michigan Press, Ann Arbor, MI. 2004
 
 6. National Audobon Society Field Guide to Trees: Eastern Region. Elbert L. Little. Alfred A. Knopf, New York, NY. 2000 

@@ -69,6 +69,22 @@ const main = async () => {
             images: [{type: String, required: true}],
             imageSources: [{type: String, required: true}] 
         },
+        {
+            commonName: 'Flowering Dogwood',
+            scientificName: 'Cornus florida',
+            family: 'Cornaceae - Dogwood Family',
+            color: ['White', 'Yellow'],
+            season: ['Spring'],
+            habitat: 'Both moist and dry soils of valleys and uplands in understory of hardwood forests',
+            fragrant: false,
+            leaves: 'Opposite, simple',
+            petals: '4',
+            height: '10 - 40 ft',
+            bark: 'Dark reddish-brown; rough, broken into small square plates',
+            description: 'A small tree with a flat-topped crown of wide-spreading branches. (5)',
+            images: [{type: String, required: true}],
+            imageSources: [{type: String, required: true}] 
+        },
     ]
     await Tree.insertMany(trees)
     console.log('Created trees')
