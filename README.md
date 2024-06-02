@@ -42,6 +42,12 @@ American Basswood
 
 
 
+
+
+
+Do I want to make all the descriptions from the Audobon books?
+
+
 Sources
 
 1. Wildflowers in the Field and Forest: A Field Guide to the Northeastern United States. Steven Clemants and Carol Gracie. Oxford University Press, New York, NY. 2006
@@ -51,3 +57,7 @@ Sources
 3. National Audobon Society Field Guide to North American Wildflowers: Eastern Region. John W. Thieret, William A. Niering, Nancy C. Olmstead. Alfred A. Knopf, New York, NY. 2001
 
 4. Peterson Field Guides: Trees and Shrubs. George A. Petrides. Houghton Mifflin, New York, NY. 1972
+
+5. Michigan Trees
+
+6. National Audobon Society Field Guide to Trees: Eastern Region. Elbert L. Little. Alfred A. Knopf, New York, NY. 2000 

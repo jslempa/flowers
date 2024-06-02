@@ -13,6 +13,7 @@ const Tree = new Schema(
         leaves: {type: String, required: true},
         petals: {type: String, required: true},
         height: {type: String, required: true},
+        bark: {type: String, required: true},
         description: {type: String, required: true},
         images: [{type: String, required: true}],
         imageSources: [{type: String, required: true}] 
