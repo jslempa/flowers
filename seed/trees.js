@@ -18,8 +18,8 @@ const main = async () => {
             height: '60 - 120 ft',
             bark: 'Dark brownish-gray, becoming thick and deeply furrowed',
             description: 'One of the tallest eastern hardwoods, with a long, straight trunk, a narrow crown that spreads with age, and large, showy flowers. (6)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/h08jrCV.jpeg'],
+            imageSources: ['https://www.wildflower.org/plants/result.php?id_plant=LITU'] 
         },
         {
             commonName: 'Northern Catalpa',
@@ -34,8 +34,8 @@ const main = async () => {
             height: '50 - 80 ft',
             bark: 'Brownish-gray; smooth, becoming furrowed into scaly plates or ridges',
             description: 'Tree with rounded crown of spreading branches; large, heart-shaped leaves; large, showy flowers; and long, bean-like fruit. (6)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/2S6cz7I.jpeg'],
+            imageSources: ['J. Slempa'] 
         },
         {
             commonName: 'Black Locust',
@@ -50,8 +50,8 @@ const main = async () => {
             height: '40 - 80 ft',
             bark: 'Light gray, thick, deeply furrowed into long interlacing ridges',
             description: 'Medium-sized, spiny tree with an irregular, open crown and showy dro0ping clusters of very fragrant flowers. (6)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/c27kc4Z.jpeg'],
+            imageSources: ['https://www.wildflower.org/gallery/species.php?id_plant=ROPS'] 
         },
         {
             commonName: 'American Basswood',
@@ -66,8 +66,8 @@ const main = async () => {
             height: '60 - 100 ft',
             bark: 'Dark gray; smooth, becoming furrowed into narrow scaly ridges',
             description: 'Large tree with a dense crown of many small, often drooping branches and large leaves; frequently has two or more trunks. (6)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/NOkoXGO.jpeg'],
+            imageSources: ['https://www.wildflower.org/gallery/species.php?id_plant=TIAM'] 
         },
         {
             commonName: 'Flowering Dogwood',
@@ -82,8 +82,8 @@ const main = async () => {
             height: '10 - 40 ft',
             bark: 'Dark reddish-brown; rough, broken into small square plates',
             description: 'A small tree with a flat-topped crown of wide-spreading branches. (5)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/aW6qeM9.jpeg'],
+            imageSources: ['https://www.wildflower.org/gallery/species.php?id_plant=cofl2'] 
         },
     ]
     await Tree.insertMany(trees)

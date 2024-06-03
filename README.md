@@ -16,15 +16,19 @@ https://www.wildflower.org/gallery/species.php?id_plant=cyac3
 *Showy Lady's Slipper
 
 
+
 Shrubs
 Pink Azalea
+https://commons.wikimedia.org/wiki/Rhododendron_periclymenoides
 
 Rosebay Rhododendron
+https://en.wikipedia.org/wiki/Rhododendron_maximum
 
 Mountain Laurel
+https://en.wikipedia.org/wiki/Kalmia_latifolia
 
 Sheep Laurel
-
+https://en.wikipedia.org/wiki/Kalmia_angustifolia
 
 
 
@@ -34,6 +38,7 @@ Tulip tree
 https://www.wildflower.org/plants/result.php?id_plant=LITU
 
 Northern Catalpa
+Johanna Slempa
 https://en.wikipedia.org/wiki/Catalpa_speciosa
 
 Black Locust
