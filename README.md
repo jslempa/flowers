@@ -1,4 +1,4 @@
-IMAGE SOURCES
+IMAGE CREDITS
 
 Herbs
 Wild columbine
@@ -8,6 +8,7 @@ Wild geranium
 https://www.wildflower.org/plants/result.php?id_plant=gema
 
 Yellow trout lily
+https://en.wikipedia.org/wiki/Erythronium_americanum
 https://www.wildflower.org/plants/result.php?id_plant=eram5
 
 Pink Lady Slipper

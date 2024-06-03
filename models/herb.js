@@ -15,7 +15,7 @@ const Herb = new Schema(
        height: {type: String, required: true},
        description: {type: String, required: true},
        images: [{type: String, required: true}],
-       imageSources: [{type: String, required: true}] 
+       imageCredits: [{type: String, required: true}] 
     },
     {timestamps: true}
     )   

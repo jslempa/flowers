@@ -17,8 +17,8 @@ const main = async () => {
             petals: '5',
             height: '2 - 10 ft',
             description: 'A deciduous shrub with terminal clusters of tubular, vase-shaped, slightly fragrant flowers. (3)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/vA7oZwG.jpeg'],
+            imageCredits: ['https://commons.wikimedia.org/wiki/Rhododendron_periclymenoides'] 
         },
         {
             commonName: 'Great laurel, Rosebay rhododendron',
@@ -32,8 +32,8 @@ const main = async () => {
             petals: '5',
             height: '5 - 35 ft',
             description: 'A large evergreen shrub with clusters of pinkish-white, cup-shaped flowers on stick, glandular stalks. (3)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/tt8ocdW.jpeg'],
+            imageCredits: ['https://en.wikipedia.org/wiki/Rhododendron_maximum'] 
         },
         {
             commonName: 'Mountain laurel',
@@ -47,8 +47,8 @@ const main = async () => {
             petals: '5 fused into shallow, cup-like shape',
             height: '3 - 15 ft',
             description: 'A gnarled evergreen shrub with showy clusters of deep pink buds and pinkish-white flowers on sticky stalks. (3)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/qTWIqUd.jpeg'],
+            imageCredits: ['https://en.wikipedia.org/wiki/Kalmia_latifolia'] 
         },
         {
             commonName: 'Sheep laurel',
@@ -62,8 +62,8 @@ const main = async () => {
             petals: '5 fused into shallow, cup-like shape',
             height: '1 - 3 ft',
             description: 'An evergreen shrub with small, deep pink, saucer-shaped flowers in dense clusters around stem. (3)',
-            images: [{type: String, required: true}],
-            imageSources: [{type: String, required: true}] 
+            images: ['https://i.imgur.com/xwM8GpN.jpeg'],
+            imageCredits: ['https://en.wikipedia.org/wiki/Kalmia_angustifolia'] 
         },
     ]
     await Shrub.insertMany(shrubs)
