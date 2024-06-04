@@ -1,5 +1,5 @@
 bodyEl = document.querySelector('body')
-gridContainer= document.querySelector('#grid-container')
+//gridContainer= document.querySelector('#grid-container')
 
 async function getTrees() {
     const res = await axios.get(`http://localhost:3001/trees`)

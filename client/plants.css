@@ -23,7 +23,7 @@ h1 {
     gap: 5rem;
 } */
 
-.tree-card {
+.tree-card, .shrub-card, .herb-card {
     border: 2px solid black;
     border-radius: 10px;
     background-color: #a6c48a;
