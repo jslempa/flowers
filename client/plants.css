@@ -15,9 +15,10 @@ h1 {
     color: #f6e7cb
 }
 
-/* .tree-container {
+/* #grid-container {
+    max-width: 100%;
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 33% 33% 33%;
     grid-template-rows: 50% 50%;
     min-height: 600px; 
     gap: 5rem;
