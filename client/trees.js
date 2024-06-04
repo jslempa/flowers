@@ -1,4 +1,5 @@
-body = document.querySelector('body')
+bodyEl = document.querySelector('body')
+gridContainer= document.querySelector('#grid-container')
 
 async function getTrees() {
     const res = await axios.get(`http://localhost:3001/trees`)
@@ -7,20 +8,21 @@ async function getTrees() {
 
     treeData.forEach((tree) => {
         console.log(tree.commonName)
-        const plantContainer = document.createElement('div')
+        const treeCard = document.createElement('div')
         const treeImg = document.createElement('img')
         const commonName = document.createElement('h3')
         const season = document.createElement('p')
         const habitat = document.createElement('p')
+        treeCard.classList.add('tree-card')
         treeImg.src = tree.images
         commonName.innerHTML = tree.commonName
-        season.innerHTML = tree.season
-        habitat.innerHTML = tree.habitat
-        plantContainer.appendChild(treeImg)
-        plantContainer.appendChild(commonName)
-        plantContainer.appendChild(season)
-        plantContainer.appendChild(habitat)
-        body.appendChild(plantContainer)
+        season.innerHTML = `Season: ${tree.season}`
+        habitat.innerHTML = `Habitat: ${tree.habitat}`
+        treeCard.appendChild(treeImg)
+        treeCard.appendChild(commonName)
+        treeCard.appendChild(season)
+        treeCard.appendChild(habitat)
+        bodyEl.appendChild(treeCard)
     })
 }   
 

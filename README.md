@@ -75,3 +75,15 @@ Sources
 5. Michigan Trees: A Guide to the Trees of the Great Lakes Region. Burton V. Barnes and Warren H. Wagner, Jr. University of Michigan Press, Ann Arbor, MI. 2004
 
 6. National Audobon Society Field Guide to Trees: Eastern Region. Elbert L. Little. Alfred A. Knopf, New York, NY. 2000 
+
+
+
+QUESTIONS
+
+How to get images to display same size
+
+3 separate pages vs 1
+
+What to do with switch - do I store its state as a variable?
+
+How to add space to seasons

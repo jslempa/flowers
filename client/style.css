@@ -1,6 +1,12 @@
+body {
+    background-color: #678d58;
+}
+
 h1, h3 {
     display: flex;
     justify-content: center;
+    color: #f6e7cb;
+    font-family: helvetica;
 }
 
 .image-container {
@@ -12,3 +18,12 @@ img {
     max-width: 400px;
     min-width: 400px;
 }
+
+
+/* Color palette
+#74d3ae turquoise
+#678d58 dark green
+#a6c48a light green
+#f6e7cb off white
+#dd9787 coral
+*/
