@@ -1,5 +1,6 @@
-bodyEl = document.querySelector('body')
-//gridContainer= document.querySelector('#grid-container')
+const bodyEl = document.querySelector('body')
+const buttonEl = document.querySelector('button')
+//const switchEl = document.querySelector('.switch')
 
 async function getTrees() {
     const res = await axios.get(`http://localhost:3001/trees`)
@@ -11,6 +12,8 @@ async function getTrees() {
         const treeCard = document.createElement('div')
         const treeImg = document.createElement('img')
         const commonName = document.createElement('h3')
+        const scientificName = document.createElement('h3')
+        scientificName.classList.add('.hidden')
         const season = document.createElement('p')
         const habitat = document.createElement('p')
         treeCard.classList.add('tree-card')
@@ -26,5 +29,16 @@ async function getTrees() {
     })
 }   
 
+const activateNerdMode = (event) => {
+    event.preventDefault() //clicks once but now button doesn't change
+    console.log('clicked')
+    // const testEl = document.querySelector('h1')
+    // const newEl = document.createElement('h2')
+    // newEl.innerHTML = 'Hi'
+    // testEl.appendChild(newEl)
+}    
+
+
+buttonEl.addEventListener('click', activateNerdMode)
 
 getTrees()
