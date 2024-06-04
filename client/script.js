@@ -1,6 +1,6 @@
-treeBtn = document.querySelector('#trees')
-shrubBtn = document.querySelector('#shrubs')
-herbsBtn = document.querySelector('#herbs')
+treeBtn = document.querySelector('#tree-container')
+shrubBtn = document.querySelector('#shrub-container')
+herbsBtn = document.querySelector('#herb-container')
 
 const goToTreePage = () => {
     window.location.href = 'http://localhost:5500/client/trees.html'

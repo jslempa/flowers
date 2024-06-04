@@ -1,24 +1,49 @@
 body {
     background-color: #678d58;
+    font-family: helvetica;
 }
 
 h1, h3 {
     display: flex;
     justify-content: center;
-    color: #f6e7cb;
-    font-family: helvetica;
+    color: #f6e7cb;    
 }
 
 .image-container {
     display: flex;
-
+    justify-content: center;
 }
 
-img {
+/* img {
     max-width: 400px;
     min-width: 400px;
+} */
+
+/* chatgpt helped here */
+
+.container {
+    position: relative;
+    display: inline-block;
 }
 
+.container img {
+    display: block;
+    width: 400px;
+    height: 400px;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #f6e7cb;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    font-size: 24px;
+    border-radius: 5px;
+    text-align: center;
+}
 
 /* Color palette
 #74d3ae turquoise
