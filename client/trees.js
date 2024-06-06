@@ -37,13 +37,13 @@ async function getTrees() {
         height.innerHTML = `Height: ${tree.height}`
         bark.innerHTML = `Bark: ${tree.bark}`
        
-        scientificName.classList.add('hidden')
-        family.classList.add('hidden')
-        description.classList.add('hidden')
-        leaves.classList.add('hidden')
-        petals.classList.add('hidden')
-        height.classList.add('hidden')
-        bark.classList.add('hidden')
+        scientificName.classList.add('hidden', `${tree._id}`)
+        family.classList.add('hidden', `${tree._id}`)
+        description.classList.add('hidden', `${tree._id}`)
+        leaves.classList.add('hidden', `${tree._id}`)
+        petals.classList.add('hidden', `${tree._id}`)
+        height.classList.add('hidden', `${tree._id}`)
+        bark.classList.add('hidden', `${tree._id}`)
         
         treeCard.appendChild(treeImg)
         treeCard.appendChild(commonName)
@@ -59,22 +59,21 @@ async function getTrees() {
         treeCard.appendChild(bark)
 
         learnMore.style.textDecoration = 'underline'
+        learnMore.classList.add(`${tree._id}`)
         learnMore.addEventListener('click', showMoreInfo)
 
         gridContainer.appendChild(treeCard)
     })
 }   
 
-const showMoreInfo = (event) => {   
-    
-    
-    
-    
-    let moreInfo = event.target.id.querySelectorAll('.hidden')
-    console.log(moreInfo)
-    moreInfo.forEach((element) => {
-        element.classList.toggle('hidden')
-    })   
+const showMoreInfo = (event) => {       
+    let moreInfo = document.querySelectorAll('.hidden')
+    console.log('working')
+    moreInfo.forEach((info) => {
+        if (info.classList.contains(`${event.target.classList}`))
+            info.classList.toggle('hidden')
+            event.target.classList.toggle('hidden')
+    })
 }    
 
 getTrees()

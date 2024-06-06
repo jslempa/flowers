@@ -59,10 +59,8 @@ https://i.imgur.com/BPdtooA.jpeg
 
 
 
-Do I want to make all the descriptions from the Audobon books?
 
-
-Sources
+References
 
 1. Wildflowers in the Field and Forest: A Field Guide to the Northeastern United States. Steven Clemants and Carol Gracie. Oxford University Press, New York, NY. 2006
 
