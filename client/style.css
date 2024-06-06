@@ -1,3 +1,28 @@
+.merriweather-regular {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .merriweather-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .merriweather-regular-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .merriweather-bold-italic {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+
 body {
     background-color: #678d58;
     font-family: helvetica;
@@ -6,7 +31,14 @@ body {
 h1, h3 {
     display: flex;
     justify-content: center;
-    color: #f6e7cb;    
+    color: #f6e7cb;  
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;  
+}
+
+h3 {
+    font-style: italic;
 }
 
 .image-container {
@@ -43,6 +75,9 @@ h1, h3 {
     font-size: 24px;
     border-radius: 5px;
     text-align: center;
+    font-family: "Merriweather", serif;
+    font-weight: 400;
+    font-style: normal;
 }
 
 /* Color palette
