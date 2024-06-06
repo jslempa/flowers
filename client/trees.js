@@ -1,7 +1,4 @@
 const gridContainer = document.querySelector('#grid-container')
-const buttonEl = document.querySelector('button')
-
-//const switchEl = document.querySelector('.switch')
 
 async function getTrees() {
     const res = await axios.get(`http://localhost:3001/trees`)
@@ -15,6 +12,7 @@ async function getTrees() {
         const commonName = document.createElement('h3')
         const scientificName = document.createElement('h3')
         const family = document.createElement('h3')
+        const learnMore = document.createElement('h4')
         const description = document.createElement('p')
         const season = document.createElement('p')
         const habitat = document.createElement('p')
@@ -30,6 +28,7 @@ async function getTrees() {
         scientificName.innerHTML = tree.scientificName
         scientificName.style.fontStyle = 'italic'
         family.innerHTML = tree.family
+        learnMore.innerHTML = 'Learn more'
         description.innerHTML = tree.description
         season.innerHTML = `Season: ${tree.season}`
         habitat.innerHTML = `Habitat: ${tree.habitat}`
@@ -53,26 +52,29 @@ async function getTrees() {
         treeCard.appendChild(description)
         treeCard.appendChild(season)
         treeCard.appendChild(habitat)
+        treeCard.appendChild(learnMore)
         treeCard.appendChild(leaves)
         treeCard.appendChild(petals)
         treeCard.appendChild(height)
         treeCard.appendChild(bark)
 
+        learnMore.style.textDecoration = 'underline'
+        learnMore.addEventListener('click', showMoreInfo)
+
         gridContainer.appendChild(treeCard)
     })
 }   
 
-const activateNerdMode = (event) => {
-    //event.preventDefault() //clicks once but now button doesn't change
+const showMoreInfo = (event) => {   
     
-    let moreInfo = document.querySelectorAll('.hidden')
+    
+    
+    
+    let moreInfo = event.target.id.querySelectorAll('.hidden')
     console.log(moreInfo)
     moreInfo.forEach((element) => {
         element.classList.toggle('hidden')
     })   
 }    
-
-
-buttonEl.addEventListener('click', activateNerdMode)
 
 getTrees()
