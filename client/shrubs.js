@@ -1,4 +1,4 @@
-gridContainer= document.querySelector('#grid-container')
+ const gridContainer= document.querySelector('#grid-container')
 
 async function getShrubs() {
     const res = await axios.get(`http://localhost:3001/shrubs`)
