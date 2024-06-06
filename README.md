@@ -1,28 +1,26 @@
-# Flowers
+# Native Wildflower Database
 
-![Marge Simpson meme] (/home/jslempa/code/unit2/projects/flowers/marge_simpson.jpg)
+![Marge Simpson meme](https://i.imgur.com/BPdtooA.jpeg)
 
-IMAGE CREDITS
+## Image credits
 
-Herbs
-Wild columbine
-https://en.wikipedia.org/wiki/Aquilegia_canadensis
+### Trees
+Tulip tree
+https://www.wildflower.org/plants/result.php?id_plant=LITU
 
-Wild geranium
-https://www.wildflower.org/plants/result.php?id_plant=gema
+Northern Catalpa - Personal photo
 
-Yellow trout lily
-https://en.wikipedia.org/wiki/Erythronium_americanum
-https://www.wildflower.org/plants/result.php?id_plant=eram5
+Black Locust
+https://www.wildflower.org/gallery/species.php?id_plant=ROPS
 
-Pink Lady Slipper
-https://www.wildflower.org/gallery/species.php?id_plant=cyac3
+American Basswood
+https://www.wildflower.org/gallery/species.php?id_plant=TIAM
 
-*Showy Lady's Slipper
+Flowering dogwood
+https://www.wildflower.org/gallery/species.php?id_plant=cofl2
 
+### Shrubs
 
-
-Shrubs
 Pink Azalea
 https://commons.wikimedia.org/wiki/Rhododendron_periclymenoides
 
@@ -36,35 +34,23 @@ Sheep Laurel
 https://en.wikipedia.org/wiki/Kalmia_angustifolia
 
 
+### Herbs
+
+Wild columbine
+https://en.wikipedia.org/wiki/Aquilegia_canadensis
+
+Wild geranium
+https://www.wildflower.org/plants/result.php?id_plant=gema
+
+Yellow trout lily
+https://en.wikipedia.org/wiki/Erythronium_americanum
+https://www.wildflower.org/plants/result.php?id_plant=eram5
+
+Pink Lady Slipper
+https://www.wildflower.org/gallery/species.php?id_plant=cyac3
 
 
-Trees
-Tulip tree
-https://www.wildflower.org/plants/result.php?id_plant=LITU
-
-Northern Catalpa
-Johanna Slempa
-https://en.wikipedia.org/wiki/Catalpa_speciosa
-
-Black Locust
-https://www.wildflower.org/gallery/species.php?id_plant=ROPS
-
-American Basswood
-https://www.wildflower.org/gallery/species.php?id_plant=TIAM
-
-Flowering dogwood
-https://www.wildflower.org/gallery/species.php?id_plant=cofl2
-
-
-
-
-Marge meme
-https://i.imgur.com/BPdtooA.jpeg
-
-
-
-
-References
+## References
 
 1. Wildflowers in the Field and Forest: A Field Guide to the Northeastern United States. Steven Clemants and Carol Gracie. Oxford University Press, New York, NY. 2006
 
@@ -80,12 +66,3 @@ References
 
 
 
-QUESTIONS
-
-How to get images to display same size
-
-3 separate pages vs 1
-
-What to do with switch - do I store its state as a variable?
-
-How to add space to seasons
