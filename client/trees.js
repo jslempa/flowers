@@ -1,3 +1,7 @@
+document.addEventListener('DOMContentLoaded', () => {
+    console.log('Page loaded')
+})
+
 const gridContainer = document.querySelector('#grid-container')
 
 async function getTrees() {
@@ -10,57 +14,58 @@ async function getTrees() {
         const treeCard = document.createElement('div')
         const treeImg = document.createElement('img')
         const commonName = document.createElement('h3')
-        const scientificName = document.createElement('h3')
-        const family = document.createElement('h3')
-        const learnMore = document.createElement('h4')
-        const description = document.createElement('p')
         const season = document.createElement('p')
         const habitat = document.createElement('p')
+        const learnMoreContainer = document.createElement('div')
+        const learnMore = document.createElement('h4')
+        const scientificName = document.createElement('h3')
+        const family = document.createElement('h3')        
+        const description = document.createElement('p')        
         const leaves = document.createElement('p')
         const petals = document.createElement('p')
         const bark = document.createElement('p')
         const height = document.createElement('p')
 
         treeCard.classList.add('tree-card')
+        learnMoreContainer.classList.add('hidden', `${tree._id}`)
        
         treeImg.src = tree.images
         commonName.innerHTML = tree.commonName
+        season.innerHTML = `Season: ${tree.season}`
+        habitat.innerHTML = `Habitat: ${tree.habitat}`
         scientificName.innerHTML = tree.scientificName
         scientificName.style.fontStyle = 'italic'
         family.innerHTML = tree.family
         learnMore.innerHTML = 'Learn more'
         description.innerHTML = tree.description
-        season.innerHTML = `Season: ${tree.season}`
-        habitat.innerHTML = `Habitat: ${tree.habitat}`
         leaves.innerHTML = `Leaves: ${tree.leaves}`
         petals.innerHTML = `Petals: ${tree.petals}`
         height.innerHTML = `Height: ${tree.height}`
         bark.innerHTML = `Bark: ${tree.bark}`
-       
-        scientificName.classList.add('hidden', `${tree._id}`)
-        family.classList.add('hidden', `${tree._id}`)
-        description.classList.add('hidden', `${tree._id}`)
-        leaves.classList.add('hidden', `${tree._id}`)
-        petals.classList.add('hidden', `${tree._id}`)
-        height.classList.add('hidden', `${tree._id}`)
-        bark.classList.add('hidden', `${tree._id}`)
         
         treeCard.appendChild(treeImg)
         treeCard.appendChild(commonName)
-        treeCard.appendChild(scientificName)
-        treeCard.appendChild(family)
-        treeCard.appendChild(description)
         treeCard.appendChild(season)
         treeCard.appendChild(habitat)
         treeCard.appendChild(learnMore)
-        treeCard.appendChild(leaves)
-        treeCard.appendChild(petals)
-        treeCard.appendChild(height)
-        treeCard.appendChild(bark)
+        treeCard.appendChild(learnMoreContainer)
+
+        learnMoreContainer.appendChild(scientificName)
+        learnMoreContainer.appendChild(family)
+        learnMoreContainer.appendChild(description)    
+        learnMoreContainer.appendChild(leaves)
+        learnMoreContainer.appendChild(petals)
+        learnMoreContainer.appendChild(height)
+        learnMoreContainer.appendChild(bark)
 
         learnMore.style.textDecoration = 'underline'
         learnMore.classList.add(`${tree._id}`)
         learnMore.addEventListener('click', showMoreInfo)
+
+        learnMoreContainer.style.border = '2px solid black'
+        learnMoreContainer.style.borderRadius = '10px'
+        learnMoreContainer.style.padding = '0px 10px'
+        learnMoreContainer.style.backgroundColor = '#f6e7cb'
 
         gridContainer.appendChild(treeCard)
     })

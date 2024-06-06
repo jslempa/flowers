@@ -33,6 +33,8 @@ h1 {
     padding: 10px;
     margin: 10px;
     max-width: 500px;
+    /* max-height: 800px;
+    overflow: auto; */
 }
 
 img {
