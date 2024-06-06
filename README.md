@@ -1,6 +1,6 @@
 # Flowers
 
-![Marge Simpson meme] (https://i.imgur.com/BPdtooA.jpeg)
+![Marge Simpson meme] (/home/jslempa/code/unit2/projects/flowers/marge_simpson.jpg)
 
 IMAGE CREDITS
 

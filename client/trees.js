@@ -73,11 +73,12 @@ async function getTrees() {
 
 const showMoreInfo = (event) => {       
     let moreInfo = document.querySelectorAll('.hidden')
+    console.log(moreInfo)
     console.log('working')
     moreInfo.forEach((info) => {
         if (info.classList.contains(`${event.target.classList}`))
             info.classList.toggle('hidden')
-            event.target.classList.toggle('hidden')
+            //event.target.classList.toggle('hidden')
     })
 }    
 
