@@ -17,10 +17,8 @@ The goal of this project is to introduce people to some of the beautiful native 
 ## Image Credits
 
 ### Trees
-Tulip tree
+Tulip Tree
 https://www.wildflower.org/plants/result.php?id_plant=LITU
-
-Northern Catalpa - Personal photo
 
 Black Locust
 https://www.wildflower.org/gallery/species.php?id_plant=ROPS
@@ -28,8 +26,10 @@ https://www.wildflower.org/gallery/species.php?id_plant=ROPS
 American Basswood
 https://www.wildflower.org/gallery/species.php?id_plant=TIAM
 
-Flowering dogwood
+Flowering Dogwood
 https://www.wildflower.org/gallery/species.php?id_plant=cofl2
+
+Northern Catalpa - Personal photo
 
 ### Shrubs
 
@@ -45,21 +45,20 @@ https://en.wikipedia.org/wiki/Kalmia_latifolia
 Sheep Laurel
 https://en.wikipedia.org/wiki/Kalmia_angustifolia
 
-
 ### Herbs
 
-Wild columbine
+Wild Columbine
 https://en.wikipedia.org/wiki/Aquilegia_canadensis
 
-Wild geranium
+Wild Geranium
 https://www.wildflower.org/plants/result.php?id_plant=gema
-
-Yellow trout lily
-https://en.wikipedia.org/wiki/Erythronium_americanum
-https://www.wildflower.org/plants/result.php?id_plant=eram5
 
 Pink Lady Slipper
 https://www.wildflower.org/gallery/species.php?id_plant=cyac3
+
+Yellow Trout Lily
+* https://en.wikipedia.org/wiki/Erythronium_americanum
+* https://www.wildflower.org/plants/result.php?id_plant=eram5
 
 
 ## References
