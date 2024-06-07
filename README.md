@@ -2,6 +2,10 @@
 
 ![Marge Simpson meme](https://i.imgur.com/BPdtooA.jpeg)
 
+The goal of this project is to introduce people to some of the fascinating native plants that can be found right outside their door. More detailed botanical information is also provided for those interested in learning more. Currently, this database focuses on the northeastern United States, with the potential for including more regions in the future.
+
+## Models
+
 ## Image credits
 
 ### Trees
@@ -63,6 +67,15 @@ https://www.wildflower.org/gallery/species.php?id_plant=cyac3
 5. Michigan Trees: A Guide to the Trees of the Great Lakes Region. Burton V. Barnes and Warren H. Wagner, Jr. University of Michigan Press, Ann Arbor, MI. 2004
 
 6. National Audobon Society Field Guide to Trees: Eastern Region. Elbert L. Little. Alfred A. Knopf, New York, NY. 2000 
+
+## Resources
+
+https://chatgpt.com/
+
+https://coolors.co/
+
+draw.io
+
 
 
 
