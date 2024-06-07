@@ -2,11 +2,19 @@
 
 ![Marge Simpson meme](https://i.imgur.com/BPdtooA.jpeg)
 
-The goal of this project is to introduce people to some of the fascinating native plants that can be found right outside their door. More detailed botanical information is also provided for those interested in learning more. Currently, this database focuses on the northeastern United States, with the potential for including more regions in the future.
+The goal of this project is to introduce people to some of the beautiful native plants that can be found right outside their door. More detailed botanical information is also provided for those interested in learning more. Currently, this database focuses on the northeastern United States, with the potential for including more regions in the future.
 
 ## Models
 
-## Image credits
+![Tree shrub and herb models](erd.png)
+
+## Stretch Goals
+
+* Search flowers by color, season of bloom, fragrance
+* Add a Family model that would be a parent of Trees, Shrubs, and Herbs
+* Add more plants
+
+## Image Credits
 
 ### Trees
 Tulip tree
