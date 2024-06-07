@@ -28,10 +28,10 @@ async function getHerbs() {
         commonName.innerHTML = herb.commonName
         season.innerHTML = `Season: ${herb.season}`
         habitat.innerHTML = `Habitat: ${herb.habitat}`
+        learnMore.innerHTML = 'Learn more'
         scientificName.innerHTML = herb.scientificName
         scientificName.style.fontStyle = 'italic'
         family.innerHTML = herb.family
-        learnMore.innerHTML = 'Learn more'
         description.innerHTML = herb.description        
         leaves.innerHTML = `Leaves: ${herb.leaves}`
         petals.innerHTML = `Petals: ${herb.petals}`

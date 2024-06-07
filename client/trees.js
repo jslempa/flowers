@@ -29,10 +29,10 @@ async function getTrees() {
         commonName.innerHTML = tree.commonName
         season.innerHTML = `Season: ${tree.season}`
         habitat.innerHTML = `Habitat: ${tree.habitat}`
+        learnMore.innerHTML = 'Learn more'
         scientificName.innerHTML = tree.scientificName
         scientificName.style.fontStyle = 'italic'
-        family.innerHTML = tree.family
-        learnMore.innerHTML = 'Learn more'
+        family.innerHTML = tree.family        
         description.innerHTML = tree.description
         leaves.innerHTML = `Leaves: ${tree.leaves}`
         petals.innerHTML = `Petals: ${tree.petals}`
