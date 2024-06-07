@@ -2,26 +2,25 @@
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
   
-  .merriweather-bold {
+.merriweather-bold {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: normal;
-  }
+}
   
-  .merriweather-regular-italic {
+.merriweather-regular-italic {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: italic;
-  }
+}
   
-  .merriweather-bold-italic {
+.merriweather-bold-italic {
     font-family: "Merriweather", serif;
     font-weight: 700;
     font-style: italic;
-  }
-
+}
 
 body {
     background-color: #678d58;
@@ -55,13 +54,13 @@ h3 {
 
 .container {
     position: relative;
-    display: inline-block;
+    display: inline-block;    
 }
 
 .container img {
     display: block;
-    width: 400px;
-    height: 400px;
+    width: 500px;
+    height: 500px;
 }
 
 .overlay-text {

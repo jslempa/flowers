@@ -1,7 +1,3 @@
-document.addEventListener('DOMContentLoaded', () => {
-    console.log('Page loaded')
-})
-
 const gridContainer = document.querySelector('#grid-container')
 
 async function getTrees() {
@@ -78,7 +74,6 @@ const showMoreInfo = (event) => {
     moreInfo.forEach((info) => {
         if (info.classList.contains(`${event.target.classList}`))
             info.classList.toggle('hidden')
-            //event.target.classList.toggle('hidden')
     })
 }    
 
