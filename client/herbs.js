@@ -12,6 +12,7 @@ async function getHerbs() {
         const commonName = document.createElement('h3')
         const season = document.createElement('p')
         const habitat = document.createElement('p')
+        const fragrant = document.createElement('p')
         const learnMoreContainer = document.createElement('div')
         const learnMore = document.createElement('h4')
         const scientificName = document.createElement('h3')
@@ -28,6 +29,7 @@ async function getHerbs() {
         commonName.innerHTML = herb.commonName
         season.innerHTML = `Season: ${herb.season}`
         habitat.innerHTML = `Habitat: ${herb.habitat}`
+        fragrant.innerHTML = herb.fragrant ? 'Fragrant: Yes':'Fragrant: No'
         learnMore.innerHTML = 'Learn more'
         scientificName.innerHTML = herb.scientificName
         scientificName.style.fontStyle = 'italic'
@@ -41,6 +43,7 @@ async function getHerbs() {
         herbCard.appendChild(commonName)
         herbCard.appendChild(season)
         herbCard.appendChild(habitat)
+        herbCard.appendChild(fragrant)
         herbCard.appendChild(learnMore)
         herbCard.appendChild(learnMoreContainer)
 

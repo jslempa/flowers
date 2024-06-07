@@ -12,6 +12,7 @@ async function getTrees() {
         const commonName = document.createElement('h3')
         const season = document.createElement('p')
         const habitat = document.createElement('p')
+        const fragrant = document.createElement('p')
         const learnMoreContainer = document.createElement('div')
         const learnMore = document.createElement('h4')
         const scientificName = document.createElement('h3')
@@ -29,6 +30,7 @@ async function getTrees() {
         commonName.innerHTML = tree.commonName
         season.innerHTML = `Season: ${tree.season}`
         habitat.innerHTML = `Habitat: ${tree.habitat}`
+        fragrant.innerHTML = tree.fragrant ? 'Fragrant: Yes':'Fragrant: No'
         learnMore.innerHTML = 'Learn more'
         scientificName.innerHTML = tree.scientificName
         scientificName.style.fontStyle = 'italic'
@@ -43,6 +45,7 @@ async function getTrees() {
         treeCard.appendChild(commonName)
         treeCard.appendChild(season)
         treeCard.appendChild(habitat)
+        treeCard.appendChild(fragrant)
         treeCard.appendChild(learnMore)
         treeCard.appendChild(learnMoreContainer)
 

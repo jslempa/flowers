@@ -12,6 +12,7 @@ async function getShrubs() {
         const commonName = document.createElement('h3')
         const season = document.createElement('p')
         const habitat = document.createElement('p')
+        const fragrant = document.createElement('p')
         const learnMoreContainer = document.createElement('div')
         const learnMore = document.createElement('h4')
         const scientificName = document.createElement('h3')
@@ -28,6 +29,7 @@ async function getShrubs() {
         commonName.innerHTML = shrub.commonName
         season.innerHTML = `Season: ${shrub.season}`
         habitat.innerHTML = `Habitat: ${shrub.habitat}`
+        fragrant.innerHTML = shrub.fragrant ? 'Fragrant: Yes':'Fragrant: No'
         learnMore.innerHTML = 'Learn more'
         scientificName.innerHTML = shrub.scientificName
         scientificName.style.fontStyle = 'italic'
@@ -41,6 +43,7 @@ async function getShrubs() {
         shrubCard.appendChild(commonName)
         shrubCard.appendChild(season)
         shrubCard.appendChild(habitat)
+        shrubCard.appendChild(fragrant)
         shrubCard.appendChild(learnMore)
         shrubCard.appendChild(learnMoreContainer)
 
