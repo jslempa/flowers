@@ -27,7 +27,7 @@ async function getShrubs() {
 
         shrubImg.src = shrub.images
         commonName.innerHTML = shrub.commonName
-        season.innerHTML = `Season: ${shrub.season}`
+        season.innerHTML = `Season: ${shrub.season.join(', ')}`
         habitat.innerHTML = `Habitat: ${shrub.habitat}`
         fragrant.innerHTML = shrub.fragrant ? 'Fragrant: Yes':'Fragrant: No'
         learnMore.innerHTML = 'Learn more'

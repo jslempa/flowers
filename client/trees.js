@@ -28,7 +28,7 @@ async function getTrees() {
        
         treeImg.src = tree.images
         commonName.innerHTML = tree.commonName
-        season.innerHTML = `Season: ${tree.season}`
+        season.innerHTML = `Season: ${tree.season.join(', ')}`
         habitat.innerHTML = `Habitat: ${tree.habitat}`
         fragrant.innerHTML = tree.fragrant ? 'Fragrant: Yes':'Fragrant: No'
         learnMore.innerHTML = 'Learn more'

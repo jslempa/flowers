@@ -27,7 +27,7 @@ async function getHerbs() {
 
         herbImg.src = herb.images
         commonName.innerHTML = herb.commonName
-        season.innerHTML = `Season: ${herb.season}`
+        season.innerHTML = `Season: ${herb.season.join(', ')}`
         habitat.innerHTML = `Habitat: ${herb.habitat}`
         fragrant.innerHTML = herb.fragrant ? 'Fragrant: Yes':'Fragrant: No'
         learnMore.innerHTML = 'Learn more'
