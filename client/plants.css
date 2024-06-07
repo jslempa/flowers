@@ -33,6 +33,7 @@ h1 {
     color: #f6e7cb;
     display: flex;
     justify-content: center;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 #grid-container {
@@ -50,6 +51,7 @@ h1 {
     padding: 10px;
     margin: 10px;
     max-width: 500px;
+    box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.5);
     /* max-height: 800px;
     overflow: auto; */
 }
