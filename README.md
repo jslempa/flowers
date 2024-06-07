@@ -12,7 +12,7 @@ The goal of this project is to introduce people to some of the beautiful native 
 
 * Search flowers by color, season of bloom, fragrance
 * Add a Family model that would be a parent of Trees, Shrubs, and Herbs
-* Add more plants
+* Add more images for each plant
 
 ## Image Credits
 
